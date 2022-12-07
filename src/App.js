@@ -12,9 +12,9 @@ import List from "./pages/list/List";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename= {window.location.pathname || ''}>
       <Routes>
-        <Route path="/" exact element={<Home/>}/>
+        <Route exact path="/"  element={Index}/>
         <Route path="/hotels" element={<List/>}/>
         <Route path="/login" element={<Login/>}/>
         <Route path="/register" element={<Register/>}/>
