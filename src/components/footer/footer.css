@@ -1,0 +1,36 @@
+.footer{
+  width: 100%;
+  /* width: 1024px; */
+  font-size: 12px;
+  background-color: #FAF5E4;
+}
+
+.fLists{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.fList{
+  list-style: none;
+  padding: 0;
+}
+
+.fListItem{
+  margin-bottom: 10px;
+  color: #003580;
+  cursor: pointer;
+}
+
+.fText{
+  background-color: #07a28b;
+  text-align: center;
+  padding: 60px;
+  color: #f2f2f2;
+  letter-spacing: 2px;
+  /* margin-bottom: 50px; */
+}
+.fText>a{
+  text-decoration: none;
+}

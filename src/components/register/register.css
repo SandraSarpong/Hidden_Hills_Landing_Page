@@ -1,0 +1,138 @@
+.wrapper{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 1920px; */
+}
+
+.left-side1{
+    background-color: #125B50;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* background: url("../../../public/assets/images/house2.jpg"); */
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-position: center;
+}
+.left-side1>h2{
+    margin-bottom: 15px;
+    font-size: 44px;
+    color: #f2f2f2;
+}
+
+.left-side1>p{
+
+    color: #f2f2f2;
+}
+
+.right-side{
+    background-color: rgba(247, 250, 255, 0.514);
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.form-control1{
+    background-color: #f2f2f2;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    flex-direction: column;
+    width: 350px;
+    height: 670px;
+    padding: 0 50px;
+    box-shadow: 2px 1px 15px rgba(0, 0, 0, 0.09);
+}
+
+
+.top-side1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.top-side1>h2{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 36px;
+}
+.top-side1>p{
+    margin-bottom: 10px;
+   
+}
+
+.middle-side{
+    margin-top: 20px;
+    width: 100%;
+}
+
+.form-item{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    /* width: 100%; */
+}
+.form-item>input{
+    border-radius: 4px;
+    width: 100%;
+    border: none;
+    padding: 7px 0 7px 0px;
+    font-size: 16px;
+    color: rgb(156, 156, 156);
+    text-align: center;
+    border: 0.5px solid lightblue;
+    
+    
+}
+.form-item>input::placeholder{
+    color: rgb(156, 156, 156);
+    /* padding: 10px ; */
+}
+.form-item>label{
+    margin-bottom: 6px;
+    
+}
+.form-item>input:focus{
+    border-radius: 4px;
+    width: 100%;
+    border: 1.6px solid rgb(130, 181, 198);
+   
+    outline: none;
+}
+
+.btnLog{
+  background-color: #F8B400;
+  color: black;
+  font-weight: 600;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+  padding: 10px 0px;
+  margin: 15px 0;
+  transition: background-color .3s ease;
+  margin-bottom: 30px;
+}
+.btnLog:hover{
+  background-color: #fbc32a;
+}
+
+.footer-side>p>a{
+    text-decoration: none;
+    font-weight: 600    ;
+    color: #125B50;
+}
+.footer-side>p>a:hover{
+    text-decoration: none;
+    font-weight: 600    ;
+    color: #07a28b;
+}
