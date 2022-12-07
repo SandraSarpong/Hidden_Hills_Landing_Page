@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/SandraSarpong/Hidden_Hills_Landing_Page/static/css/main.2b68d032.css",
-    "main.js": "/SandraSarpong/Hidden_Hills_Landing_Page/static/js/main.2a789cce.js",
-    "static/media/house2.jpg": "/SandraSarpong/Hidden_Hills_Landing_Page/static/media/house2.68747d4a7a118293386f.jpg",
-    "index.html": "/SandraSarpong/Hidden_Hills_Landing_Page/index.html",
-    "main.2b68d032.css.map": "/SandraSarpong/Hidden_Hills_Landing_Page/static/css/main.2b68d032.css.map",
-    "main.2a789cce.js.map": "/SandraSarpong/Hidden_Hills_Landing_Page/static/js/main.2a789cce.js.map"
+    "main.css": "/Hidden_Hills_Landing_Page/static/css/main.b4971135.css",
+    "main.js": "/Hidden_Hills_Landing_Page/static/js/main.5d9038a2.js",
+    "static/media/house2.jpg": "/Hidden_Hills_Landing_Page/static/media/house2.68747d4a7a118293386f.jpg",
+    "index.html": "/Hidden_Hills_Landing_Page/index.html",
+    "main.b4971135.css.map": "/Hidden_Hills_Landing_Page/static/css/main.b4971135.css.map",
+    "main.5d9038a2.js.map": "/Hidden_Hills_Landing_Page/static/js/main.5d9038a2.js.map"
   },
   "entrypoints": [
-    "static/css/main.2b68d032.css",
-    "static/js/main.2a789cce.js"
+    "static/css/main.b4971135.css",
+    "static/js/main.5d9038a2.js"
   ]
 }
