@@ -14,7 +14,7 @@ function App() {
   return (
     <BrowserRouter basename= {window.location.pathname || ''}>
       <Routes>
-        <Route exact path="/"  element={Index}/>
+        <Route exact path="/"  element={<Home/>}/>
         <Route path="/hotels" element={<List/>}/>
         <Route path="/login" element={<Login/>}/>
         <Route path="/register" element={<Register/>}/>
